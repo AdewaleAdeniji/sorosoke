@@ -29,7 +29,7 @@ function pull(requrl,body){
        }
        else {
           //var prefix ='../backend/budgetapp/'
-         var prefix = "https://medcord.000webhostapp.com/";
+         var prefix = "https://begetmusic.com/sorosoke/";
      }
     // console.log(prefix+requrl);
    return  fetch(prefix+requrl,body)
@@ -44,7 +44,7 @@ function pref(){
      }
      else {
         //var prefix ='../backend/budgetapp/'
-       var prefy = "https://medcord.000webhostapp.com/";
+       var prefy = "https://begetmusic.com/sorosoke/";
    }
    return prefy;
 }
