@@ -1,0 +1,18 @@
+:root {
+    --brandColor: #D4145A;
+}
+
+.sidebar__icon path {
+    fill: black;
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar__icon.active path {
+    fill: white;
+}
+
+.card-body {
+    background: white;
+    border-radius: 8px;
+}

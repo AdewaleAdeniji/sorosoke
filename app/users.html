@@ -1,0 +1,610 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<!--begin::Head-->
+	<head><base href="">
+		<meta charset="utf-8" />    
+		<title>Metronic Live preview | Keenthemes</title>
+		<meta name="description" content="Metronic admin dashboard live demo. Check out all the features of the admin panel. A large number of settings, additional services and widgets." />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link rel="canonical" href="https://keenthemes.com/metronic" />
+		<!--begin::Fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<!--end::Fonts-->
+		<!--begin::Page Vendors Styles(used by this page)-->
+		<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Page Vendors Styles-->
+		<!--begin::Global Theme Styles(used by all pages)-->
+		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Global Theme Styles-->
+		<!--begin::Layout Themes(used by all pages)-->
+		<link href="assets/css/themes/layout/header/base/light.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/themes/layout/brand/light.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/themes/layout/aside/light.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/themes/layout/aside/sidebar.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css">
+		<link href="assets/fonts/style.css" rel="stylesheet" type="text/css"/>
+		<link href="assets/styles.css" rel="stylesheet" type="text/css"/>
+		<!--end::Layout Themes-->
+		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+	</head>
+	<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable page-loading">
+
+            <script>
+            var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1400 }, "colors": { "theme": { "base": { "white": "#ffffff", "primary": "#3699FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#E4E6EF", "dark": "#181C32" }, "light": { "white": "#ffffff", "primary": "#E1F0FF", "secondary": "#EBEDF3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "primary": "#ffffff", "secondary": "#3F4254", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#EBEDF3", "gray-300": "#E4E6EF", "gray-400": "#D1D3E0", "gray-500": "#B5B5C3", "gray-600": "#7E8299", "gray-700": "#5E6278", "gray-800": "#3F4254", "gray-900": "#181C32" } }, "font-family": "Poppins" };</script>
+		<!--end::Global Config-->
+        <!--begin::Global Theme Bundle(used by all pages)-->
+        
+        <!--begin::Header Mobile-->
+		<div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
+			<!--begin::Logo-->
+			<a href="index.html">
+				<img alt="Logo" src="assets/media/logos/logo-light.png" />
+			</a>
+			<!--end::Logo-->
+			<!--begin::Toolbar-->
+			<div class="d-flex align-items-center">
+				<!--begin::Aside Mobile Toggle-->
+				<button class="btn p-0 burger-icon burger-icon-left" id="kt_aside_mobile_toggle">
+					<span></span>
+				</button>
+				<!--end::Aside Mobile Toggle-->
+				<!--begin::Header Menu Mobile Toggle-->
+				<button class="btn p-0 burger-icon ml-4" id="kt_header_mobile_toggle">
+					<span></span>
+				</button>
+				<!--end::Header Menu Mobile Toggle-->
+				<!--begin::Topbar Mobile Toggle-->
+				<button class="btn btn-hover-text-primary p-0 ml-2" id="kt_header_mobile_topbar_toggle">
+					<span class="svg-icon svg-icon-xl">
+						<!--begin::Svg Icon | path:assets/media/svg/icons/General/User.svg-->
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<polygon points="0 0 24 0 24 24 0 24" />
+								<path d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+								<path d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z" fill="#000000" fill-rule="nonzero" />
+							</g>
+						</svg>
+						<!--end::Svg Icon-->
+					</span>
+				</button>
+				<!--end::Topbar Mobile Toggle-->
+			</div>
+			<!--end::Toolbar-->
+		</div>
+		<!--end::Header Mobile-->
+		<div class="d-flex flex-column flex-root">
+			<!--begin::Page-->
+			<div class="d-flex flex-row flex-column-fluid page">
+				<!--begin::Aside-->
+				<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
+					<!--begin::Brand-->
+					<div class="brand flex-column-auto" id="kt_brand">
+						<!--begin::Logo-->
+						<a href="index.html" class="brand-logo">
+							<img alt="Logo" src="assets/media/logos/logo-dark.png">
+						</a>
+						<!--end::Logo-->
+						<!--begin::Toggle-->
+						<button class="brand-toggle btn btn-sm px-0" id="kt_aside_toggle">
+							<span class="svg-icon svg-icon svg-icon-xl">
+								<!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Angle-double-left.svg-->
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+									<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<polygon points="0 0 24 0 24 24 0 24"></polygon>
+										<path d="M5.29288961,6.70710318 C4.90236532,6.31657888 4.90236532,5.68341391 5.29288961,5.29288961 C5.68341391,4.90236532 6.31657888,4.90236532 6.70710318,5.29288961 L12.7071032,11.2928896 C13.0856821,11.6714686 13.0989277,12.281055 12.7371505,12.675721 L7.23715054,18.675721 C6.86395813,19.08284 6.23139076,19.1103429 5.82427177,18.7371505 C5.41715278,18.3639581 5.38964985,17.7313908 5.76284226,17.3242718 L10.6158586,12.0300721 L5.29288961,6.70710318 Z" fill="#000000" fill-rule="nonzero" transform="translate(8.999997, 11.999999) scale(-1, 1) translate(-8.999997, -11.999999)"></path>
+										<path d="M10.7071009,15.7071068 C10.3165766,16.0976311 9.68341162,16.0976311 9.29288733,15.7071068 C8.90236304,15.3165825 8.90236304,14.6834175 9.29288733,14.2928932 L15.2928873,8.29289322 C15.6714663,7.91431428 16.2810527,7.90106866 16.6757187,8.26284586 L22.6757187,13.7628459 C23.0828377,14.1360383 23.1103407,14.7686056 22.7371482,15.1757246 C22.3639558,15.5828436 21.7313885,15.6103465 21.3242695,15.2371541 L16.0300699,10.3841378 L10.7071009,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" transform="translate(15.999997, 11.999999) scale(-1, 1) rotate(-270.000000) translate(-15.999997, -11.999999)"></path>
+									</g>
+								</svg>
+								<!--end::Svg Icon-->
+							</span>
+						</button>
+						<!--end::Toolbar-->
+					</div>
+					<!--end::Brand-->
+					<!--begin::Aside Menu-->
+					
+					<div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
+						<!--begin::Menu Container-->
+						<div id="kt_aside_menu" class="aside-menu my-4" data-menu-vertical="1" data-menu-scroll="1" data-menu-dropdown-timeout="500" style="overflow: auto; height: 671px;">
+							<!--begin::Menu Nav-->
+							<ul class="menu-nav">
+								<li class="menu-item" aria-haspopup="true">
+									<a href="index.html" class="menu-link">
+										<span class="svg-icon menu-icon">
+											<!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
+											<svg class="sidebar__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7.17949 0H1.53846C0.666667 0 0 0.666667 0 1.53846V7.17949C0 8.05128 0.666667 8.71795 1.53846 8.71795H7.17949C8.05128 8.71795 8.71795 8.05128 8.71795 7.17949V1.53846C8.71795 0.666667 8.05128 0 7.17949 0ZM7.17949 7.17949H1.53846V1.53846H7.17949V7.17949Z" fill="#333333"/>
+											<path d="M18.4615 0H12.8205C11.9487 0 11.282 0.666667 11.282 1.53846V7.17949C11.282 8.05128 11.9487 8.71795 12.8205 8.71795H18.4615C19.3333 8.71795 20 8.05128 20 7.17949V1.53846C20 0.666667 19.3333 0 18.4615 0ZM18.4615 7.17949H12.8205V1.53846H18.4615V7.17949Z" fill="#333333"/>
+											<path d="M7.17949 11.282H1.53846C0.666667 11.282 0 11.9487 0 12.8205V18.4615C0 19.3333 0.666667 20 1.53846 20H7.17949C8.05128 20 8.71795 19.3333 8.71795 18.4615V12.8205C8.71795 11.9487 8.05128 11.282 7.17949 11.282ZM7.17949 18.4615H1.53846V12.8205H7.17949V18.4615Z" fill="#333333"/>
+											<path d="M18.4615 11.282H12.8205C11.9487 11.282 11.282 11.9487 11.282 12.8205V18.4615C11.282 19.3333 11.9487 20 12.8205 20H18.4615C19.3333 20 20 19.3333 20 18.4615V12.8205C20 11.9487 19.3333 11.282 18.4615 11.282ZM18.4615 18.4615H12.8205V12.8205H18.4615V18.4615Z" fill="#333333"/>
+											</svg>
+											<!--end::Svg Icon-->
+										</span>
+										<span class="menu-text mytext">Dashboard</span>
+									</a>
+								</li>
+								<li class="menu-item  menu-item-active" aria-haspopup="true">
+									<a href="app.html" class="menu-link ">
+										<span class="svg-icon  menu-icon">
+										<!--begin::Svg Icon -->
+										<svg class="sidebar__icon active" width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M18.5757 14.7775L16.0831 12.2849C15.727 11.9288 15.1929 11.9288 14.8368 12.2849C14.4807 12.641 14.4807 13.1751 14.8368 13.5312L17.3294 16.0238C17.9229 16.6172 18.2196 17.3888 18.2196 18.2196C18.2196 19.0505 17.9229 19.822 17.3294 20.4155C16.7359 21.0089 15.9644 21.3057 15.1336 21.3057C14.3027 21.3057 13.5312 21.0089 12.9377 20.4155L8.24929 15.727C7.06235 14.5401 7.06235 12.5223 8.24929 11.3354C8.72407 10.8606 9.31754 10.5638 9.97036 10.4451C10.4451 10.3858 10.8012 9.91102 10.7419 9.43624C10.6825 8.96146 10.2077 8.60539 9.73297 8.66474C8.72407 8.84278 7.77452 9.31755 7.00301 10.0297C5.1039 11.9288 5.1039 15.0149 7.00301 16.914L11.6914 21.6024C12.641 22.552 13.8279 23.0268 15.1336 23.0268C16.4392 23.0268 17.6855 22.4926 18.5757 21.6024C19.4659 20.7122 20 19.4659 20 18.1603C20 16.8546 19.5253 15.727 18.5757 14.7775Z" fill="black"/>
+										<path d="M2.67062 7.00299C2.07715 6.40952 1.78041 5.638 1.78041 4.80714C1.78041 3.97628 2.07715 3.20476 2.67062 2.61129C3.26409 2.01782 4.0356 1.72108 4.86646 1.72108C5.69732 1.72108 6.46884 2.01782 7.06231 2.61129L11.7507 7.29973C12.9377 8.48667 12.9377 10.5045 11.7507 11.6914C11.276 12.1662 10.6825 12.4629 10.0297 12.5816C9.55489 12.641 9.19881 13.1157 9.25816 13.5905C9.31751 14.0059 9.73294 14.362 10.1484 14.362C10.2077 14.362 10.2671 14.362 10.2671 14.362C11.276 14.184 12.2255 13.7092 12.997 12.997C14.8961 11.0979 14.8961 8.01189 12.997 6.11279L8.3086 1.42435C7.35905 0.474792 6.1721 0 4.86646 0C3.56083 0 2.31454 0.534139 1.42433 1.42435C0.474774 2.3739 0 3.56084 0 4.86647C0 6.17211 0.534121 7.41839 1.42433 8.3086L3.91692 10.8012C4.273 11.1573 4.80712 11.1573 5.1632 10.8012C5.51928 10.4451 5.51928 9.911 5.1632 9.55491L2.67062 7.00299Z" fill="black"/>
+										</svg>
+										<!--end::Svg Icon--></span>
+										<span class="menu-text mytext">Greams</span>
+									</a>
+								</li>
+								<li class="menu-item" aria-haspopup="true">
+									<a href="users.html" class="menu-link">
+										<span class="svg-icon menu-icon">
+											<!--begin::Svg Icon-->
+											<svg class="sidebar__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM1.36364 10C1.36364 5.22727 5.22727 1.36364 10 1.36364C14.7727 1.36364 18.6364 5.22727 18.6364 10C18.6364 12 17.9545 13.8636 16.7727 15.3182C15.8182 13.9091 14.3182 12.5909 12.4545 11.9545C13.1818 11.2273 13.6364 10.1364 13.6364 8.95454C13.6364 6.68181 12 4.86363 10 4.86363C8 4.86363 6.36364 6.68181 6.36364 8.95454C6.36364 10.1818 6.86364 11.2727 7.63637 12.0455C5.86364 12.6818 4.31818 13.9545 3.40909 15.5454C2.13636 14.0909 1.36364 12.1364 1.36364 10ZM10.2273 11.5909C10 11.5909 9.72727 11.5909 9.5 11.6364C8.5 11.3636 7.72727 10.2727 7.72727 8.99999C7.72727 7.49999 8.72727 6.27272 10 6.27272C11.2727 6.27272 12.2727 7.49999 12.2727 8.99999C12.2727 10.2727 11.5455 11.3182 10.5909 11.6364C10.4545 11.6364 10.3636 11.5909 10.2273 11.5909ZM4.40909 16.5909C5.27273 14.8182 7.18182 13.3182 9.40909 13.0454C9.59091 13.0909 9.77273 13.0909 10 13.0909C10.2727 13.0909 10.5 13.0454 10.7727 13C12.9545 13.2273 14.8636 14.7273 15.8636 16.3636C14.3182 17.7727 12.2727 18.6364 10.0455 18.6364C7.86364 18.6364 5.90909 17.8636 4.40909 16.5909Z" fill="black"/>
+											</svg>
+											<!--end::Svg Icon-->
+										</span>
+										<span class="menu-text mytext">Users </span>
+									</a>
+								</li>
+								<li class="menu-item" aria-haspopup="true">
+									<a href="users.html" class="menu-link">
+										<span class="svg-icon menu-icon">
+											<!--begin::Svg Icon-->
+											<svg class="sidebar__icon" width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M19.3258 6.29214H17.9775C17.618 6.29214 17.3033 6.60675 17.3033 6.9663C17.3033 7.32585 17.618 7.64046 17.9775 7.64046H19.3258C19.6854 7.64046 20 7.32585 20 6.9663C20 6.60675 19.6854 6.29214 19.3258 6.29214Z" fill="black"/>
+											<path d="M19.2359 10.2472L17.8876 9.34832C17.573 9.1236 17.1685 9.21345 16.9438 9.52806C16.7191 9.84266 16.809 10.2472 17.1236 10.4719L18.4719 11.3708C18.6067 11.4607 18.6966 11.5056 18.8315 11.5056C19.0562 11.5056 19.2809 11.4157 19.3708 11.191C19.6404 10.8315 19.5505 10.427 19.2359 10.2472Z" fill="black"/>
+											<path d="M17.5281 4.67418C17.6629 4.67418 17.7977 4.62921 17.8876 4.58426L19.2809 3.68539C19.5955 3.50561 19.6854 3.05618 19.5056 2.74158C19.3258 2.42697 18.8764 2.33708 18.5618 2.51686L17.1685 3.41573C16.8539 3.59551 16.764 4.04494 16.9438 4.35954C17.0786 4.58426 17.3033 4.67418 17.5281 4.67418Z" fill="black"/>
+											<path d="M14.8315 0H13.0337C12.2697 0 11.6854 0.58427 11.6854 1.34831V1.39325L3.95505 4.49438C3.77528 3.95506 3.2809 3.59551 2.69663 3.59551H1.34831C0.58427 3.59551 0 4.17978 0 4.94382V9.4382C0 10.2022 0.58427 10.7865 1.34831 10.7865H2.69663C3.2809 10.7865 3.77528 10.427 3.95505 9.88764L4.80899 10.2472C4.76405 10.3371 4.7191 10.427 4.7191 10.5618C4.7191 11.8202 5.34831 12.854 6.42696 13.3933C6.83145 13.5731 7.28089 13.7079 7.68538 13.7079C8.44943 13.7079 9.21349 13.4382 9.84271 12.8539C9.9326 12.764 9.97752 12.6742 10.0225 12.5843L11.6854 13.3034C11.8202 13.9326 12.3596 14.382 12.9888 14.382H14.7865C15.5506 14.382 16.1348 13.7978 16.1348 13.0337V1.34831C16.1798 0.58427 15.5955 0 14.8315 0ZM2.69663 9.4382H1.34831V4.94382H2.69663V9.4382ZM11.6854 11.9101L4.04494 8.49439V5.88763L11.6854 2.78649V11.9101ZM7.05618 12.2247C6.33708 11.8651 6.15729 11.2809 6.11235 10.8315L8.80898 12C8.3146 12.3146 7.64045 12.4944 7.05618 12.2247ZM14.8315 13.0337H13.0337V1.34831H14.8315V13.0337Z" fill="black"/>
+											</svg>
+											<!--end::Svg Icon-->
+										</span>
+										<span class="menu-text mytext">Campaigns </span>
+									</a>
+								</li>
+							</ul>
+							<!--end::Menu Nav-->
+						</div>
+						<!--end::Menu Container-->
+					</div>
+					<!--end::Aside Menu-->
+				</div>
+				<!--end::Aside-->
+				<!--begin::Wrapper-->
+				<div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
+					<!--begin::Header-->
+					<div id="kt_header" class="header header-fixed">
+						<!--begin::Container-->
+						<div class="container-fluid d-flex align-items-stretch justify-content-between">
+							<!--begin::Header Menu Wrapper-->
+							<div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
+								<!--begin::Header Menu-->
+								<div id="kt_header_menu" class="header-menu header-menu-mobile header-menu-layout-default">
+									<!--begin::Header Nav-->
+										<ul class="menu-nav">
+
+										</ul>
+									<!--end::Header Nav-->
+								</div>
+								<!--end::Header Menu-->
+							</div>
+							<!--end::Header Menu Wrapper-->
+							<!--begin::Topbar-->
+							<div class="topbar">
+								<!--begin::Search-->
+								<div class="dropdown" id="kt_quick_search_toggle">
+									<!--begin::Toggle-->
+									<div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
+										<div class="btn btn-icon btn-clean btn-lg btn-dropdown mr-1">
+											<span class="svg-icon svg-icon-xl svg-icon-primary">
+												<!--begin::Svg Icon | path:assets/media/svg/icons/General/Search.svg-->
+												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+													<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+														<rect x="0" y="0" width="24" height="24" />
+														<path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+														<path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero" />
+													</g>
+												</svg>
+												<!--end::Svg Icon-->
+											</span>
+										</div>
+									</div>
+									<!--end::Toggle-->
+									<!--begin::Dropdown-->
+									<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
+										<div class="quick-search quick-search-dropdown" id="kt_quick_search_dropdown">
+											<!--begin:Form-->
+											<form method="get" class="quick-search-form">
+												<div class="input-group">
+													<div class="input-group-prepend">
+														<span class="input-group-text">
+															<span class="svg-icon svg-icon-lg">
+																<!--begin::Svg Icon | path:assets/media/svg/icons/General/Search.svg-->
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																		<rect x="0" y="0" width="24" height="24" />
+																		<path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																		<path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero" />
+																	</g>
+																</svg>
+																<!--end::Svg Icon-->
+															</span>
+														</span>
+													</div>
+													<input type="text" class="form-control" placeholder="Search..." />
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="quick-search-close ki ki-close icon-sm text-muted"></i>
+														</span>
+													</div>
+												</div>
+											</form>
+											<!--end::Form-->
+											<!--begin::Scroll-->
+											<div class="quick-search-wrapper scroll" data-scroll="true" data-height="325" data-mobile-height="200"></div>
+											<!--end::Scroll-->
+										</div>
+									</div>
+									<!--end::Dropdown-->
+								</div>
+								<!--end::Search-->
+								
+								<div class="topbar-item"  data-offset="10px,0px">
+									<div class=" enveloped">
+										<i class="far fa-envelope"></i>
+										
+									</div>
+								</div>
+								<div class="topbar-item"  data-offset="10px,0px">
+									<div class=" enveloped">
+										<i class="fas fa-bell"></i>
+										
+									</div>
+								</div>
+								<div class="topbar-item">
+									<div class="btn btn-icon btn-icon-mobile w-auto btn-clean d-flex align-items-center btn-lg px-2" id="kt_quick_user_toggle">
+										<div class="symbol">
+											<img src="assets/media/human.png" width="50px" height="50px"/>
+											
+										</div>
+										<div class="nameobj">
+											<span class="username">Temak Timi</span>
+												
+											<span class="useertype">Admin</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--end::Topbar-->
+						</div>
+						<!--end::Container-->
+					</div>
+					<!--end::Header-->
+					<!--begin::Content-->
+					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+						
+						<!--begin::Entry-->
+						<div class="d-flex flex-column-fluid">
+							<!--begin::Container-->
+							<div class="container">
+								<div class="row">
+									<div class="col-12 col-md-6 col-lg-3 pl-lg-0 mb-4 mb-lg-0">
+										<div class="card-body p-0">
+											<div class="d-flex align-items-center justify-content-between card-spacer flex-grow-1">
+												<span class="symbol symbol-50 symbol-light-success mr-2">
+													<span class="symbol-label">
+														<span class="svg-icon svg-icon-xl svg-icon-success">
+															<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-4-blocks.svg-->
+															<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																	<rect x="0" y="0" width="24" height="24"/>
+																	<path d="M14,16 L12,16 L12,12.5 C12,11.6715729 11.3284271,11 10.5,11 C9.67157288,11 9,11.6715729 9,12.5 L9,17.5 C9,19.4329966 10.5670034,21 12.5,21 C14.4329966,21 16,19.4329966 16,17.5 L16,7.5 C16,5.56700338 14.4329966,4 12.5,4 L12,4 C10.3431458,4 9,5.34314575 9,7 L7,7 C7,4.23857625 9.23857625,2 12,2 L12.5,2 C15.5375661,2 18,4.46243388 18,7.5 L18,17.5 C18,20.5375661 15.5375661,23 12.5,23 C9.46243388,23 7,20.5375661 7,17.5 L7,12.5 C7,10.5670034 8.56700338,9 10.5,9 C12.4329966,9 14,10.5670034 14,12.5 L14,16 Z" fill="#000000" fill-rule="nonzero" transform="translate(12.500000, 12.500000) rotate(-315.000000) translate(-12.500000, -12.500000) "/>
+																</g>
+															</svg>
+															<!--end::Svg Icon-->
+														</span>
+													</span>
+												</span>
+												<div class="d-flex flex-column text-right">
+													<span class="text-dark-75 font-weight-bolder font-size-h3">750$</span>
+													<span class="mytexting mt-2">
+														<i class="ki ki-long-arrow-up bt"></i>
+														16.99%
+													</span>
+												</div>
+												
+											</div>
+											<div id="bar" class="col-md-12 progressarea card-rounded-bottom" data-color="success" style="height: 50px;">
+												<div class="progress pta">
+													<div class="progress-bar normal" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+												<span class="cardt">Total Greams</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+										<div class="card-body p-0">
+											<div class="d-flex align-items-center justify-content-between card-spacer flex-grow-1">
+												<span class="symbol symbol-50 symbol-light-success mr-2">
+													<span class="symbol-label blue">
+														<span class=" svg-icon-xl svg-icon-blue">
+															<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-4-blocks.svg-->
+															<img src="assets/media/share.svg">
+															<!--end::Svg Icon-->
+														</span>
+													</span>
+												</span>
+												<div class="d-flex flex-column text-right">
+													<span class="text-dark-75 font-weight-bolder font-size-h3">750$</span>
+													<span class="mytexting mt-2">
+														<i class="ki ki-long-arrow-up bt"></i>
+														16.99%
+													</span>
+												</div>
+												
+											</div>
+											<div id="bar" class="col-md-12 progressarea card-rounded-bottom" data-color="success" style="height: 50px;">
+												<div class="progress mta">
+													<div class="progress-bar blue" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+												<span class="cardt">Total Greams</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+										<div class="card card-custom">
+											<!--begin::Body-->
+											<div class="card-body p-0">
+												<div class="d-flex align-items-center justify-content-between card-spacer flex-grow-1">
+													<span class="symbol symbol-50 symbol-light-success mr-2">
+														<span class="symbol-label yellow">
+															<span class=" svg-icon-xl svg-icon-yellow">
+																<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-4-blocks.svg-->
+																<i class="far fa-thumbs-up rt"></i>
+																<!--end::Svg Icon-->
+															</span>
+														</span>
+													</span>
+													<div class="d-flex flex-column text-right">
+														<span class="text-dark-75 font-weight-bolder font-size-h3">750$</span>
+														<span class="mytexting mt-2">
+															<i class="ki ki-long-arrow-down rt"></i>
+															16.99%
+														</span>
+													</div>
+													
+												</div>
+											<div id="bar" class="col-md-12 progressarea card-rounded-bottom" data-color="success" style="height: 50px;">
+													<div class="progress yta">
+														<div class="progress-bar yellow" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+													</div>
+													<span class="cardt">Total Greams</span>
+											</div>
+											</div>
+											<!--end::Body-->
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-3 pr-lg-0 mb-4 mb-lg-0">
+										<div class="card card-custom">
+											<!--begin::Body-->
+											<div class="card-body p-0">
+												<div class="d-flex align-items-center justify-content-between card-spacer flex-grow-1">
+													<span class="symbol symbol-50 symbol-light-success mr-2">
+														<span class="symbol-label yellow">
+															<span class=" svg-icon-xl svg-icon-yellow">
+																<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-4-blocks.svg-->
+																<i class="far fa-thumbs-up rt"></i>
+																<!--end::Svg Icon-->
+															</span>
+														</span>
+													</span>
+													<div class="d-flex flex-column text-right">
+														<span class="text-dark-75 font-weight-bolder font-size-h3">750$</span>
+														<span class="mytexting mt-2">
+															<i class="ki ki-long-arrow-down rt"></i>
+													
+															16.99%
+														</span>
+													</div>
+													
+												</div>
+											<div id="bar" class="col-md-12 progressarea card-rounded-bottom" data-color="success" style="height: 50px;">
+													<div class="progress yta">
+														<div class="progress-bar yellow" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+													</div>
+													<span class="cardt">Total Greams</span>
+											</div>
+											</div>
+											<!--end::Body-->
+										</div>
+									</div>
+									
+								</div>
+								<div class="col-md-12 bg-white colcol">
+									<div class="col-md-4">
+										Showing results : 
+										<select>
+											<option value="7">7</option>
+										</select>
+									</div>
+									<div class="col-md-8">
+										
+										<span class="symbol symbol-50 symbol-light-success mr-2">
+											<span class="symbol-label">
+												<span class="svg-icon svg-icon-xl svg-icon-success">
+													<!--begin::Svg Icon | path:C:\wamp64\www\keenthemes\themes\metronic\theme\html\demo1\dist/../src/media/svg/icons\General\Trash.svg-->
+														<!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+															<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+															<rect x="0" y="0" width="24" height="24"/>
+															<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero"/>
+															<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3"/>
+															</g>
+														</svg> -->
+														<img src="assets/media/trash.png" />
+														<!--end::Svg Icon-->
+												</span>
+											</span>
+										</span>
+									
+										<div class="quick-search quick-search-dropdown" id="kt_quick_search_dropdown">
+											<!--begin:Form-->
+											<form method="get" class="quick-search-form">
+												<div class="input-group">
+													
+													<input type="text" class="form-control" placeholder="Search..." />
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<span class="svg-icon svg-icon-lg">
+																<!--begin::Svg Icon | path:assets/media/svg/icons/General/Search.svg-->
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																		<rect x="0" y="0" width="24" height="24" />
+																		<path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																		<path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero" />
+																	</g>
+																</svg>
+																<!--end::Svg Icon-->
+															</span>
+														</span>
+													</div>
+													<!-- <div class="input-group-append">
+														<span class="input-group-text">
+															<i class="quick-search-close ki ki-close icon-sm text-muted"></i>
+														</span>
+													</div> -->
+												</div>
+											</form>
+											<!--end::Form-->
+											<!--begin::Scroll-->
+											<div class="quick-search-wrapper scroll" data-scroll="true" data-height="325" data-mobile-height="200"></div>
+											<!--end::Scroll-->
+
+										
+										
+										</div>
+										<span class="selectarea">
+										Sort By 
+										<select>
+											<option value="Date">Date</option>
+										</select>
+										</span>
+									</div>
+								
+								</div>
+								<div class="card card-custom csrg">
+									
+									<div class="card-body">
+										<!--begin: Datatable-->
+										<table class="table table-separate table-head-custom table-checkable" id="kt_datatable_2">
+											<thead>
+												<tr>
+													<th>Record ID</th>
+													<th>Username</th>
+													<th>Gream</th>
+													<th>Category</th>
+													<th>Date Posted</th>
+													<th>Likes</th>
+													<th>Comments</th>
+													<th>Reshares</th>
+													<th>Status</th>
+													<th>Type</th>
+													<th>Actions</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1</td>
+													<td>64616-103</td>
+													<td>Brazil</td>
+													<td>São Félix do Xingu</td>
+													<td>698 Oriole Pass</td>
+													<td>Hayes Boule</td>
+													<td>Casper-Kerluke</td>
+													<td>10/15/2017</td>
+													<td>5</td>
+													<td>1</td>
+													<td nowrap="nowrap"></td>
+												</tr>
+												<tr>
+													<td>2</td>
+													<td>54868-3377</td>
+													<td>Vietnam</td>
+													<td>Bình Minh</td>
+													<td>8998 Delaware Court</td>
+													<td>Humbert Bresnen</td>
+													<td>Hodkiewicz and Sons</td>
+													<td>4/24/2016</td>
+													<td>2</td>
+													<td>2</td>
+													<td nowrap="nowrap"></td>
+												</tr>
+												
+											</tbody>
+										</table>
+										<!--end: Datatable-->
+									</div>
+								</div>
+								
+							<!--end::Container-->
+						</div>
+						<!--end::Entry-->
+						</div>
+					</div>
+					<!--end::Content-->
+					<!--begin::Footer-->
+					<div class="footer bg-white py-4 d-flex flex-lg-column" id="kt_footer">
+						<!--begin::Container-->
+						<div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+							<!--begin::Copyright-->
+							<!--begin::Copyright-->
+							<!--begin::Copyright-->
+							
+							<div class="text-dark order-2 order-md-1">
+								<span class="text-muted font-weight-bold mr-2">©2020 Greamit</span>
+								<a href="http://keenthemes.com/metronic" target="_blank" class="text-dark-75 text-hover-primary">All rights reserved</a>
+							</div>
+							
+							<!--end::Copyright-->
+							<!--begin::Nav-->
+							<div class="nav nav-dark">
+								
+							</div>
+							<!--end::Nav-->
+						</div>
+						<!--end::Container-->
+					</div>
+					<!--end::Footer-->
+				</div>
+				<!--end::Wrapper-->
+			</div>
+			<!--end::Page-->
+		</div>
+		<!--end::Main-->
+
+
+
+
+
+		<script src="assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+		<script src="assets/js/scripts.bundle.js"></script>
+		<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<!--end::Page Vendors-->
+		<!--begin::Page Scripts(used by this page)-->
+		<script src="assets/js/pages/crud/datatables/basic/basic.js"></script>`
+		<!--end::Global Theme Bundle-->
+		<!--begin::Page Vendors(used by this page)-->
+		<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+		<!--end::Page Vendors-->
+		<!--begin::Page Scripts(used by this page)-->
+		<script src="assets/js/pages/widgets.js"></script>
+		<!--end::Page Scripts-->
+	</body>
+	<!--end::Body-->
+</html>
