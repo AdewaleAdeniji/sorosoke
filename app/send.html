@@ -584,52 +584,7 @@
                })
             }
         })
-        function upload(e){ 
-        var form = new FormData();
-        var file =  document.getElementById("picture").files[0];
-        if(value('picture')==""){
-            $("#addphoto").addClass("btn-outline-primary");
-            $("#addphoto").removeClass('btn-success');
-               get('addphoto').innerHTML='Attach a photo';
-        }
-        if(file!=""&&value('picture')!=""){
-        form.append('image',file);
-        load("Processing Photo");
-            
-        pull('uploadpicture',{
-            method:"POST",
-            body:form,
-        })
-        .then(response=>response.json())
-        .then((data)=>{
-            console.log(data);
-            closeload();
-            //console.log(data);
-            if(data.code==200){
-                Swal.fire({
-                timer:2000,
-                text:'Picture Uploaded',
-                icon:'success',
-                showConfirmButton:false,
-            })
-               var filename = data.text;
-               get('filename').value=filename;
-               $("#addphoto").removeClass("btn-outline-primary");
-               $("#addphoto").addClass('btn-success');
-               get('addphoto').innerHTML='Photo Added';
-            }
-            else {
-                throw data.text;
-            }
-        })
-        .catch((err)=>{
-            console.log(err);
-            //retry if on production
-           //upload();
-        })
-    }
-}
-   
+       
         </script>
 	</body>
 	<!--end::Body-->
