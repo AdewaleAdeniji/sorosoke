@@ -29,7 +29,7 @@ function pull(requrl,body){
        }
        else {
           //var prefix ='../backend/budgetapp/'
-         var prefix = "http://begetmusic.com/sorosoke/";
+         var prefix = "https://begetmusic.com/sorosoke/";
      }
     // console.log(prefix+requrl);
    return  fetch(prefix+requrl,body)
